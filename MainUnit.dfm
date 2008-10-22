@@ -257,6 +257,7 @@ object SystemInfoForm: TSystemInfoForm
     Height = 297
     ActivePage = TabSheet6
     Align = alTop
+    TabIndex = 5
     TabOrder = 0
     object TabSheet1: TTabSheet
       Caption = #1052#1086#1081' '#1082#1086#1084#1087#1100#1102#1090#1077#1088
@@ -372,7 +373,6 @@ object SystemInfoForm: TSystemInfoForm
         Width = 7
         Height = 13
         Caption = '0'
-        Color = clWindow
         Font.Charset = RUSSIAN_CHARSET
         Font.Color = clHotLight
         Font.Height = -11
@@ -408,7 +408,6 @@ object SystemInfoForm: TSystemInfoForm
         Width = 7
         Height = 13
         Caption = '0'
-        Color = clWindow
         Font.Charset = RUSSIAN_CHARSET
         Font.Color = clHotLight
         Font.Height = -11
@@ -423,7 +422,6 @@ object SystemInfoForm: TSystemInfoForm
         Width = 7
         Height = 13
         Caption = '0'
-        Color = clWindow
         Font.Charset = RUSSIAN_CHARSET
         Font.Color = clHotLight
         Font.Height = -11
@@ -438,7 +436,6 @@ object SystemInfoForm: TSystemInfoForm
         Width = 7
         Height = 13
         Caption = '0'
-        Color = clWindow
         Font.Charset = RUSSIAN_CHARSET
         Font.Color = clHotLight
         Font.Height = -11
@@ -774,7 +771,6 @@ object SystemInfoForm: TSystemInfoForm
         Width = 60
         Height = 13
         Caption = '0                  '
-        Color = clWindow
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clHotLight
         Font.Height = -11
@@ -789,7 +785,6 @@ object SystemInfoForm: TSystemInfoForm
         Width = 51
         Height = 13
         Caption = '0               '
-        Color = clWindow
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clHotLight
         Font.Height = -11
@@ -804,7 +799,6 @@ object SystemInfoForm: TSystemInfoForm
         Width = 51
         Height = 13
         Caption = '0               '
-        Color = clWindow
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clHotLight
         Font.Height = -11
@@ -819,7 +813,6 @@ object SystemInfoForm: TSystemInfoForm
         Width = 51
         Height = 13
         Caption = '0               '
-        Color = clWindow
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clHotLight
         Font.Height = -11
@@ -834,7 +827,6 @@ object SystemInfoForm: TSystemInfoForm
         Width = 51
         Height = 13
         Caption = '0               '
-        Color = clWindow
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clHotLight
         Font.Height = -11
@@ -849,7 +841,6 @@ object SystemInfoForm: TSystemInfoForm
         Width = 51
         Height = 13
         Caption = '0               '
-        Color = clWindow
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clHotLight
         Font.Height = -11
@@ -864,7 +855,6 @@ object SystemInfoForm: TSystemInfoForm
         Width = 51
         Height = 13
         Caption = '0               '
-        Color = clWindow
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clHotLight
         Font.Height = -11
@@ -879,7 +869,6 @@ object SystemInfoForm: TSystemInfoForm
         Width = 51
         Height = 13
         Caption = '0               '
-        Color = clWindow
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clHotLight
         Font.Height = -11
@@ -905,7 +894,6 @@ object SystemInfoForm: TSystemInfoForm
         Width = 6
         Height = 13
         Caption = '0'
-        Color = clWindow
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clHotLight
         Font.Height = -11
@@ -927,7 +915,6 @@ object SystemInfoForm: TSystemInfoForm
         Width = 6
         Height = 13
         Caption = '0'
-        Color = clWindow
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clHotLight
         Font.Height = -11
@@ -949,7 +936,6 @@ object SystemInfoForm: TSystemInfoForm
         Width = 6
         Height = 13
         Caption = '0'
-        Color = clWindow
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clHotLight
         Font.Height = -11
@@ -971,7 +957,6 @@ object SystemInfoForm: TSystemInfoForm
         Width = 6
         Height = 13
         Caption = '0'
-        Color = clWindow
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clHotLight
         Font.Height = -11
@@ -1760,7 +1745,7 @@ object SystemInfoForm: TSystemInfoForm
         Width = 497
         Height = 21
         Style = csDropDownList
-        ItemHeight = 13
+        ItemHeight = 0
         TabOrder = 0
         OnChange = AdapterCBChange
       end
@@ -2186,7 +2171,6 @@ object SystemInfoForm: TSystemInfoForm
         Width = 60
         Height = 13
         Caption = '0                  '
-        Color = clWindow
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clHotLight
         Font.Height = -11
@@ -2201,7 +2185,6 @@ object SystemInfoForm: TSystemInfoForm
         Width = 60
         Height = 13
         Caption = '0                  '
-        Color = clWindow
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clHotLight
         Font.Height = -11
@@ -2542,9 +2525,5 @@ object SystemInfoForm: TSystemInfoForm
     Caption = 'OK'
     TabOrder = 1
     OnClick = Button1Click
-  end
-  object XPManifest1: TXPManifest
-    Left = 28
-    Top = 240
   end
 end

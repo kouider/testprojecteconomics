@@ -5,7 +5,7 @@ interface
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, ComCtrls, StdCtrls, ExtCtrls, Gauges, IpHlpApi, IpTypes, IpIfConst,
-  inifiles, registry, FileCtrl, XPMan, ShellApi;
+  inifiles, registry, FileCtrl, ShellApi;
 
 type
   TSystemInfoForm = class(TForm)
@@ -116,7 +116,6 @@ type
     SectorsPerCluster: TLabel;
     DriveComboBox1: TDriveComboBox;
     BytesPerSector: TLabel;
-    XPManifest1: TXPManifest;
     TabSheet7: TTabSheet;
     Button2: TButton;
     Image7: TImage;
